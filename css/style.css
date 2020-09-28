@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box; /* SVARBI TAISYKLE isliks bloko matmenys, pading nepakeis ismatavimu*/
+}
+
+.container{
+	width: 80%;
+	margin:0 auto;
+	background-color: #eee;
+}
+
+nav{
+	background-color: #eeff99;
+	padding: 5px;
+}
+
+nav ul li{
+	list-style: none; /*nuims taskelius*/
+	display: inline-block;
+	background-color: #ee0099;
+	padding: 5px;
+	width: 150px;
+}
+
+nav ul li a:hover{
+	background-color: #eedd99
+}
+
+nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000;
+}
+section{
+	background-color:#eeff88;
+	margin:100px auto; /* auto visada iscentruos centre*/
+	/*margin 100px is visu pusiu*/
+	/*margin-top: -25px; virsus apacia, kaire desine*/
+	border:1px solid #ee88dd; /*dotted dashed*/
+	padding:15px; /* parastes keicia ismatavimus*/
+	width: 500px; /* 80% */
+}
